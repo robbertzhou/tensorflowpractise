@@ -15,4 +15,5 @@ model = Sequential([
 ])
 
 plot_model(model,to_file='training.png',show_shapes=True)
+model.compile(optimizer='rmsprop')
 
